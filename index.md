@@ -1,0 +1,23 @@
+<html>
+  <body>
+    <script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = ''; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00DRO000000JEnH',
+				'hjel',
+				'https://page-agility-2857.test1.my.pc-rnd.site.com/ESWhjel1676413673799',
+				{
+					scrt2URL: 'https://page-agility-2857.test1.my.pc-rnd.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://page-agility-2857.test1.my.pc-rnd.site.com/ESWhjel1676413673799/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+</body>
+</html>
