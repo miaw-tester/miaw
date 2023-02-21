@@ -1,16 +1,16 @@
 <html>
   <body>
-    <script type='text/javascript'>
+<script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
-			embeddedservice_bootstrap.settings.language = 'en'; // For example, enter 'en' or 'en-US'
+			embeddedservice_bootstrap.settings.language = ''; // For example, enter 'en' or 'en-US'
 
 			embeddedservice_bootstrap.init(
-				'00DRO000000JEnH',
-				'hjel',
-				'https://page-agility-2857.test1.my.pc-rnd.site.com/ESWhjel1676413673799',
+				'00DSG000000BTcz',
+				'git',
+				'https://signuporgtest1676999486889.test1.my.pc-rnd.site.com/ESWgit1677003211540',
 				{
-					scrt2URL: 'https://page-agility-2857.test1.my.pc-rnd.salesforce-scrt.com'
+					scrt2URL: 'https://signuporgtest1676999486889.test1.my.pc-rnd.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -18,6 +18,7 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://page-agility-2857.test1.my.pc-rnd.site.com/ESWhjel1676413673799/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://signuporgtest1676999486889.test1.my.pc-rnd.site.com/ESWgit1677003211540/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
 </body>
 </html>
